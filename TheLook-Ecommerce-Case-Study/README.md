@@ -27,21 +27,21 @@ Marketing funnel tracking 📈
 
 Here are the stars of our show:
 
-distribution_centers – locations where products are stored and shipped from.
+`distribution_centers` – locations where products are stored and shipped from.
 
-events – user interactions like browsing, clicking, adding to cart, or purchasing.
+`events` – user interactions like browsing, clicking, adding to cart, or purchasing.
 
-inventory_items – stock details of products available at each distribution center.
+`inventory_items` – stock details of products available at each distribution center.
 
-order_items – the nitty-gritty of what items were bought, quantities, prices.
+`order_items` – the nitty-gritty of what items were bought, quantities, prices.
 
-orders – higher-level info about each order (timestamps, users, status).
+`orders` – higher-level info about each order (timestamps, users, status).
 
-products – the product catalog: categories, brands, pricing.
+`products` – the product catalog: categories, brands, pricing.
 
-thelook_ecommerce_table – a catch-all table with combined information (think “summary view”).
+`thelook_ecommerce_table` – a catch-all table with combined information (think “summary view”).
 
-users – customer demographics: age, gender, location.
+`users` – customer demographics: age, gender, location.
 
 🎯 Why This Dataset Rocks
 
@@ -59,4 +59,4 @@ Are there seasonal spikes in orders?
 
 How healthy is our inventory pipeline?
 
-Stay tuned — each query here will answer a real business question with SQL and then interpret what the numbers actually mean 📖.
+Stay tuned — each query here will answer a real business question with SQL and then interpret what the numbers actually mean.
